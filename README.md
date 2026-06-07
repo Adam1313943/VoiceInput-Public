@@ -1,34 +1,35 @@
-# 語音輸入 (VoiceInput) for Mac
+# VoiceInput for Mac
 
-Mac 上的離線語音輸入 —— **按熱鍵說話，文字直接出現在游標處**。
-本機 Whisper 辨識，支援 60+ 語言（中日韓尤其出色），**100% 離線、語音不上傳**。
+**English** · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md)
 
-這個 repo 用來放**公開發版**。
+**Offline voice input for Mac** — press a hotkey, speak, and the text appears right at your cursor, in any app. On-device Whisper, **60+ languages**, **100% offline** — your voice never leaves your Mac. Best-in-class accuracy for **Chinese, Japanese & Korean**.
 
-## 下載
+This repo hosts the **public releases**.
 
-到 **[Releases](../../releases)** 下載最新版的 `VoiceInput-x.y.zip`。
+## Download
 
-## 安裝
+Get the latest `VoiceInput-x.y.zip` from **[Releases](../../releases)**.
 
-1. 下載並解壓 → 把 **VoiceInput.app** 拖到「應用程式」資料夾
-2. 開啟（已用 Apple Developer ID 簽章 + 公證，不會被 Gatekeeper 擋）
-3. 依首次引導：下載辨識模型、授權「麥克風」與「輔助使用」
-4. 在任何 App 按熱鍵說話，文字就會插入游標處
+## Install
 
-## 系統需求
+1. Download and unzip → drag **VoiceInput.app** to your Applications folder
+2. Open it (signed with Apple Developer ID & notarized — no Gatekeeper warnings)
+3. Follow the first-run guide: download the model, grant **Microphone** and **Accessibility**
+4. In any app, press the hotkey, speak, and the text is inserted at your cursor
 
-- macOS 14 以上
-- 建議 Apple Silicon（M 系列）以獲得最佳速度
-- 首次使用會下載一次辨識模型（約 574MB）
+## Requirements
 
-## 特色
+- macOS 14 or later
+- Apple Silicon (M-series) recommended for best speed
+- First run downloads the recognition model once (~574 MB)
 
-- 本機 Whisper（large-v3-turbo），多語精準
-- 100% 離線、隱私無虞
-- 插字進任何 App、CJK 排版優化（中英空格、標點、簡繁）
-- 自訂詞庫、糾錯學習、雙語快切
+## Features
+
+- On-device Whisper (large-v3-turbo) — accurate across 60+ languages
+- 100% offline & private — nothing is uploaded
+- Inserts into any app · CJK typography polish (CJK↔Latin spacing, punctuation, simplified/traditional)
+- Custom dictionary · learns from your edits · two-language quick switch
 
 ---
 
-© 2026 momosoft · 由 Whisper 驅動，100% 本機執行
+© 2026 momosoft · Powered by Whisper, running entirely on-device
